@@ -1,0 +1,98 @@
+rootProject.name = 'java-design-patterns'
+include ':abstract-factory'
+include ':builder'
+include ':factory-method'
+include ':prototype'
+include ':singleton'
+include ':adapter'
+include ':bridge'
+include ':composite'
+include ':dao'
+include ':decorator'
+include ':facade'
+include ':flyweight'
+include ':proxy'
+include ':chain'
+include ':command'
+include ':interpreter'
+include ':iterator'
+include ':mediator'
+include ':memento'
+include ':model-view-presenter'
+include ':observer'
+include ':state'
+include ':strategy'
+include ':template-method'
+include ':visitor'
+include ':double-checked-locking'
+include ':servant'
+include ':service-locator'
+include ':null-object'
+include ':event-aggregator'
+include ':callback'
+include ':execute-around'
+include ':property'
+include ':intercepting-filter'
+include ':poison-pill'
+include ':lazy-loading'
+include ':service-layer'
+include ':specification'
+include ':tolerant-reader'
+include ':model-view-controller'
+include ':flux'
+include ':double-dispatch'
+include ':multiton'
+include ':resource-acquisition-is-initialization'
+include ':thread-pool'
+include ':private-class-data'
+include ':object-pool'
+include ':dependency-injection'
+
+project(':abstract-factory').projectDir = "$rootDir/abstract-factory" as File
+project(':builder').projectDir = "$rootDir/builder" as File
+project(':factory-method').projectDir = "$rootDir/factory-method" as File
+project(':prototype').projectDir = "$rootDir/prototype" as File
+project(':singleton').projectDir = "$rootDir/singleton" as File
+project(':adapter').projectDir = "$rootDir/adapter" as File
+project(':bridge').projectDir = "$rootDir/bridge" as File
+project(':composite').projectDir = "$rootDir/composite" as File
+project(':dao').projectDir = "$rootDir/dao" as File
+project(':decorator').projectDir = "$rootDir/decorator" as File
+project(':facade').projectDir = "$rootDir/facade" as File
+project(':flyweight').projectDir = "$rootDir/flyweight" as File
+project(':proxy').projectDir = "$rootDir/proxy" as File
+project(':chain').projectDir = "$rootDir/chain" as File
+project(':command').projectDir = "$rootDir/command" as File
+project(':interpreter').projectDir = "$rootDir/interpreter" as File
+project(':iterator').projectDir = "$rootDir/iterator" as File
+project(':mediator').projectDir = "$rootDir/mediator" as File
+project(':memento').projectDir = "$rootDir/memento" as File
+project(':model-view-presenter').projectDir = "$rootDir/model-view-presenter" as File
+project(':observer').projectDir = "$rootDir/observer" as File
+project(':state').projectDir = "$rootDir/state" as File
+project(':strategy').projectDir = "$rootDir/strategy" as File
+project(':template-method').projectDir = "$rootDir/template-method" as File
+project(':visitor').projectDir = "$rootDir/visitor" as File
+project(':double-checked-locking').projectDir = "$rootDir/double-checked-locking" as File
+project(':servant').projectDir = "$rootDir/servant" as File
+project(':service-locator').projectDir = "$rootDir/service-locator" as File
+project(':null-object').projectDir = "$rootDir/null-object" as File
+project(':event-aggregator').projectDir = "$rootDir/event-aggregator" as File
+project(':callback').projectDir = "$rootDir/callback" as File
+project(':execute-around').projectDir = "$rootDir/execute-around" as File
+project(':property').projectDir = "$rootDir/property" as File
+project(':intercepting-filter').projectDir = "$rootDir/intercepting-filter" as File
+project(':poison-pill').projectDir = "$rootDir/poison-pill" as File
+project(':lazy-loading').projectDir = "$rootDir/lazy-loading" as File
+project(':service-layer').projectDir = "$rootDir/service-layer" as File
+project(':specification').projectDir = "$rootDir/specification" as File
+project(':tolerant-reader').projectDir = "$rootDir/tolerant-reader" as File
+project(':model-view-controller').projectDir = "$rootDir/model-view-controller" as File
+project(':flux').projectDir = "$rootDir/flux" as File
+project(':double-dispatch').projectDir = "$rootDir/double-dispatch" as File
+project(':multiton').projectDir = "$rootDir/multiton" as File
+project(':resource-acquisition-is-initialization').projectDir = "$rootDir/resource-acquisition-is-initialization" as File
+project(':thread-pool').projectDir = "$rootDir/thread-pool" as File
+project(':private-class-data').projectDir = "$rootDir/private-class-data" as File
+project(':object-pool').projectDir = "$rootDir/object-pool" as File
+project(':dependency-injection').projectDir = "$rootDir/dependency-injection" as File
